@@ -1,0 +1,50 @@
+//CADA CASE
+.case{
+    background-color: white;
+    margin-bottom: .25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem .5rem;
+
+    .case_left{
+        display: flex;
+        align-items: center;
+
+        .category{
+            display: flex;
+            margin-right: 0.5rem;
+            font-size: .80rem;
+            
+            .fa{}
+        }
+        .title{
+            @include main_text;
+
+        }
+    }
+    .case_right {
+        .ctas{
+            display: flex;
+            color: #c5c9cc;
+            .muted{
+                padding: .5rem;
+                background-color: transparent;
+                display: flex;
+                border: 0;
+                //color: #c5c9cc;
+                font-size: .8rem;
+                .fa{}
+            }
+            .pinned{
+                padding: .5rem;
+                background-color: transparent;
+                display: flex;
+                border: 0;
+                //color: #c5c9cc;
+                font-size: .8rem;
+                .fa{}
+            }
+        }
+    }
+}

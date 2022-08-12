@@ -1,0 +1,57 @@
+//CASES GENERAL Y HEADER
+.cases{
+    grid-area: 1 / 1 / 2 / 2 ;
+    background: #E7E7E7;
+    //border-right: 1px solid #CCCCCC;
+    
+
+    .section_header{
+        background-color: #8FC7FD;
+        .section_header_title{
+            @include white_title;
+            
+        }
+        .section_header_categories{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding: .25rem 0;
+            .categories{
+                @include categories;
+                //background-color: #fff;
+                //display: flex;
+                //align-items: center;
+                //padding: .5rem 1rem;
+                //margin-right: 0.5rem;
+                //border-radius: 3px;
+
+                .fa{
+                    @include categories_fa;
+                    //margin: 0 .25rem;
+                    //display: flex;
+                    //font-size: .80rem;
+                    
+                    fa-circle{
+                        
+                    }
+                }
+            }
+            .add_category{
+                display: flex;
+                align-items: center;
+                
+                button{
+                    
+                    fa{}
+                }
+            }
+        }
+    }    
+
+    .section_body{
+        padding: .25rem; 
+        .cases{
+            
+        }
+    }
+}    

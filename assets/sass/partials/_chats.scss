@@ -1,0 +1,46 @@
+.chats{
+    background: #DCDCDC;
+    
+    .section_header{
+        background-color: #73BAFF;
+
+        .title{
+            @include white_title;
+            
+        }
+        .section_header_categories{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding: .25rem 0;
+            .categories{
+                @include categories;
+                
+                .fa{
+                    @include categories_fa;
+                    
+                    
+                    fa-circle{
+                        
+                    }
+                }
+            }
+            .add_category{
+                button{
+                    
+                    .fa{
+                        fa-plus{}
+                    }
+                }
+            }
+        }
+            
+    }
+    .section_body{
+        padding: .25rem;
+        border-right: 1px solid #CCCCCC;
+        
+    }
+}
+
+// SECTION BODY SIGUE EN _topic.scss  //

@@ -1,0 +1,34 @@
+.connected{
+    background: #E7E7E7;
+    border-right: 1px solid #CCCCCC;
+    .section_header{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-color: #8FC7FD;
+        padding: .5rem;
+
+        .section_header_title{
+            @include white_title;
+            //padding: 0.5rem;
+            margin-right: .5rem;
+        }
+        .add_category{
+            button{
+                //background-color: #43A1FC;
+                //color: white;
+                //display: flex;
+                //padding: .5rem;
+                //border-radius: 3px;
+                //border: 0;
+                span{}
+            }
+        }
+        
+    }
+    .section_body{
+        padding: .25rem; 
+    }
+    
+}
+    

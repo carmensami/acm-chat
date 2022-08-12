@@ -1,0 +1,45 @@
+.section_body{
+    padding: .5rem;
+    .people{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: .25rem;
+        padding: 0.25rem .25rem;
+        
+        .people_left{
+            display: flex;
+            align-items: center;
+            margin-left: .5rem;
+            .user{
+                
+                .img{}
+            }
+            .name{
+                @include main_text;
+                margin: 0 1rem ;
+
+            }
+        }
+        .people_right{
+            display: flex;
+            align-items: center;
+            margin-right: .5rem;
+            font-size: .8rem;
+            .status{
+                &.orange{
+                    .fa-circle{
+                        color: orange;
+                        
+                    }
+                }
+                
+               .fa-circle{
+                   color: green;
+               }
+                
+            }
+        }
+    }
+}

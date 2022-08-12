@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    .header_left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header_logo{
+            margin-right: 1rem;
+            a{
+                display: flex;
+                align-items: center;
+                .logo{
+                    margin-right: 0.5rem;
+                    img{
+
+                    }
+                }
+                .title{}
+            }
+           
+        }
+        .header_searchbox{
+            display: flex;
+            align-items: center;
+            margin-left: 5rem;
+            form {
+               display: flex;
+               align-items: center;
+               padding: 0.5rem;
+               //border-bottom: 1px, solid, grey;
+               border-bottom: 1px solid grey;
+               
+                .icon{
+                    margin-right: .5rem;
+                    color: grey;
+                    span{}
+                }
+                .input{
+                    
+                    input{
+                        border: 0;
+                        
+                    }
+
+                }
+            }
+           
+        }
+    }
+    .header_right{
+        display: flex;
+        align-items: center;
+
+        .navigation{
+            display: flex;
+            align-items: center;
+            margin-right: .1rem;
+            list-style: none;
+            margin-bottom: 0;
+            .notifications{
+                display: flex;
+                align-items: center;
+                margin-right: 1rem;
+
+                .icon{
+                    margin-right: 0.5rem;
+                    color: grey;
+                    .fa{}
+                }
+                .bubble{
+                    font-size: .8rem;
+                    margin-left: -.8rem;
+                    color: #43A1FC;
+                    span{}
+                }
+            }
+            .tasks{
+                display: flex;
+                align-items: center;
+                margin-right: 1rem;
+
+                .icon{
+                    margin-right: 0.5rem;
+                    color: grey;
+                    .fa{
+
+                    }
+                   
+                }
+                .label{
+                    
+                }
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                .picture{
+                    margin-right: 0.5rem;   
+                    
+                }
+                .label{
+                  font-weight: bold;
+                }
+            }
+            .toggle{
+                margin-left: 5rem;
+                font-size: 1.25rem;
+                color:grey;
+                
+                span{}
+            }
+        }
+        
+    }
+}

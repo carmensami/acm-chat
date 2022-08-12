@@ -1,0 +1,105 @@
+
+//      PARA CONTROLAR LOS ESTADOS Y COLORES DE LOS CTAS   //
+
+
+//**
+
+
+////////////  CATEGORIES SECTION BODY CASES  ////////////
+
+
+//**
+
+.category {
+    font-size: .8rem;
+    color: #aaa;
+    .fa {}
+
+    &.red {
+        color: tomato;
+    }
+    &.green{
+        color: green;
+    }
+
+    &.blue{
+        color: #2D9CDB;
+    }
+    &.grey{
+        color: grey;
+    } 
+
+    &.purple{
+        color: purple;
+    }
+
+    &.orange{
+        color: orange;
+    }
+}
+
+//**
+
+
+////////////  CATEGORIES HEADERS ////////////
+
+
+//**
+
+.categories{
+
+    .fa{
+
+        &.red {
+            color: tomato;
+        }
+        &.green{
+            color: green;
+        }
+    
+        &.blue{
+            color: #2D9CDB;
+        }
+        &.grey{
+            color: grey;
+        } 
+    
+        &.purple{
+            color: purple;
+        }
+    
+        &.orange{
+            color: orange;
+        } 
+    }
+    
+    
+}
+
+
+
+//**
+
+
+////////////////  MUTED AND PINNED  ////////////////////////
+
+
+//**
+
+
+    
+.muted{
+    color: grey;
+    &.active{
+        color: #43A1FC;
+    }
+}
+
+.pinned{
+    color: grey;
+    &.active{
+        color: #43A1FC;
+    }
+
+}
+

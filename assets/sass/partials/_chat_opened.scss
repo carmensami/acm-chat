@@ -1,0 +1,175 @@
+.chat_opened {
+
+    .section_header {
+        padding: 0 .85rem;
+        background-color: #5CAFFF;
+        
+        .title_cats {
+            display: flex;
+            align-items: center;
+            
+            .title {
+                @include white_title;
+            }
+
+            .categories {
+                display: flex;
+                align-items: center;
+
+                .fa {
+                    display: flex;
+                    font-size: .65rem;
+                    margin-right: 0.15rem;
+                    border: 1px solid white;
+                    border-radius: 50%;
+
+                    fa-circle{
+                        
+                    }
+
+                }
+            }
+        }
+
+        .users {
+            display: flex;
+            align-items: center;
+            //margin-top: .25rem;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            //margin: .5rem 0;
+            padding: .5rem .25rem;
+            
+
+            .user {
+                display: flex;
+                border: 1px solid white;
+                border-radius: 50%;
+                margin-right: -.25rem;
+                
+
+                img {
+                    width: 1.65rem;
+                }
+            }
+        }
+    }
+
+    .section_body {
+        padding: .5rem;
+        background-color: #CDCDCD;
+
+        .chats_container {
+
+            .chat_bubble_container {
+                display: flex;
+                align-items: center;
+                padding: 0.25rem 1rem;
+                //margin-bottom: .5rem;
+
+                &.is_me_speaking {
+                    .chat_bubble_holder {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
+
+                .chat_bubble_holder {
+                    margin-right: 2rem;
+
+                    .bubble {
+                        width: 80%;
+                        background-color: white;
+                        padding: .5rem 1rem;
+
+                        .user {
+                            display: flex;
+                            align-items: center;
+                            
+
+                            .user_pic {
+                                margin-right: 1rem;
+                                display: flex;
+
+                                .picture {
+                                    
+                                    img {
+                                        width: 1.70rem;  
+                                    }
+                                }
+
+                                .status {
+                                    margin-left: -.25rem;
+
+                                    .fa {
+                                        border: 1px solid white;
+                                        border-radius: 50%;
+                                        font-size: .65rem;
+                                        color: green;
+                                        
+                                        
+                                    }
+                                }
+                            }
+
+                            .user_name {
+                                
+                                margin-bottom: 0;
+                                @include main_text;
+                                font-weight: bold;
+
+                                h4{}
+                            }
+                        }
+
+                        .text {
+                            padding-left: 3rem;
+                            margin: .15rem 0;
+                            @include main_text;
+
+                            p{
+                                
+                            }
+
+                        }
+                    }
+                }
+
+                .chat_bubble_time {
+                    @include main_text;
+                    color: grey;
+                    justify-content: flex-end;
+
+
+                }
+            }
+
+        }
+    }
+
+    footer.chat_footer {
+        form {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .input {
+                margin-right: 2rem;
+                display: flex;
+                width: 100%;
+
+                input {
+                    width: 100%;
+                    border: 0;
+                }
+            }
+
+            .send {
+                button {
+                    border: 0;
+                }
+            }
+        }
+    }
+}

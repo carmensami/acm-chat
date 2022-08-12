@@ -1,0 +1,15 @@
+@mixin bg_primary {
+    background-color: #fff;
+}
+
+button {
+    display: flex;
+    padding: .45rem .45rem;
+    border-radius: 3px;
+    border: 0;
+
+    &.primary {
+        background-color: #43A1FC;
+        color: white;
+    }
+}

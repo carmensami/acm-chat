@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ghastly Panic';
+    src: url('GhastlyPanic.woff2') format('woff2'),
+        url('GhastlyPanic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,47 @@
+// los ajustes de tamaño tipográfico están en _mixins.scss //
+
+//@mixin plain_text {
+//    font-size: .5rem;
+//    line-height: 1.5rem;
+//}
+//@mixin bold_text {
+//    @include plain_text();
+//    font-weight: bold;
+//}
+//
+//@mixin main_title {
+//    font-size: 1rem;
+//}
+//
+//@mixin white_title() {
+//    font-size: 1rem;
+//    text-transform: uppercase;
+//    color: white;
+//    text-align: center;
+//    font-weight: bold;
+//    margin: 0;
+//    padding: 0.25rem;
+//}
+//@mixin main_text {
+//    font-size: .85rem;
+//    margin-bottom: 0;
+//    font-weight: normal;
+//}
+//@mixin categories() {
+//    background-color: #fff;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    padding: .75rem 1.15rem;
+//    margin-right: 0.5rem;
+//    border-radius: 3px;
+//    
+//
+//}
+//
+//@mixin categories_fa() {
+//    
+//    margin: 0 .5rem;
+//    display: flex;
+//    font-size: .8rem;
+//}

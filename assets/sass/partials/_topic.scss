@@ -1,0 +1,130 @@
+.topics{
+    background-color: white;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: .25rem;
+
+    &.selected{
+        background-color: #73BAFF;
+    }
+   
+    .up{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: .25rem;
+        .left{
+            margin-left: .25rem;
+            .topic{
+                @include main_text;
+                
+                &.bold{
+                    font-weight: bold;
+                }
+
+                &.selected {
+                    color: white;
+                    font-weight: bold;
+                }
+                
+                    
+            }
+            
+        }
+        .right{
+            display: flex;
+            align-items: center;
+
+            .muted{
+                padding: .5rem;
+                color: grey;
+                background: transparent;
+                border: none;
+                font-size: .8rem;
+
+                &.selected{
+                    color: white;
+                }
+
+                &.active{
+                    color: #73BAFF;
+                }
+            }
+            .pinned{
+                padding: .5rem;
+                color: grey;
+                background: transparent;
+                border: none;
+                font-size: .80rem;
+
+                &.selected{
+                    color: white;
+                }
+
+                &.active{
+                    color: #73BAFF;
+                }
+            }
+
+        }
+    }
+    .down{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: .25rem;
+        .left{
+            display: flex;
+            align-items: center;
+            margin-left: .25rem;
+
+            .picture{
+                border: 1px solid white;
+                border-radius: 50%;
+                width: 1.65rem;
+                margin-right: -.25rem;
+                img{
+
+                }
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            margin-right: .25rem;
+
+            .cases{
+                display: flex;
+                background: transparent;
+                align-items: center;
+                
+
+                
+                .fa{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 .05rem;
+                    font-size: .65rem;
+                    border: 1px solid white;
+                    border-radius: 50%;
+
+                    fa-circle{
+                    }
+                }
+                
+            }
+            .date{
+                margin-left: .5rem;
+
+                &.selected{
+                    color: white;
+                }
+                p{
+                    margin-bottom: 0px;
+                    font-size: .75rem;
+
+                }
+            }
+        }
+    }
+    
+}
